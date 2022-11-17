@@ -1,0 +1,11 @@
+.basket {
+    background-color: transparent;
+    transition: all 0.3s;
+    &:hover{
+        transform: translateY(-2px);
+    }
+    &__img {
+        height: 36px;
+        fill: var(--colorMainWhite)
+    }
+}

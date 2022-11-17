@@ -1,0 +1,9 @@
+<!-- active -->
+<button 
+[ngClass]="{'active': service.isBurgerOpen}"
+class="burger" 
+(click)="toggleBurger()">
+    <span class="burger__line"></span>
+    <span class="burger__line"></span>
+    <span class="burger__line"></span>
+</button>
