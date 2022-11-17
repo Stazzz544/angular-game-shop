@@ -1,0 +1,34 @@
+.navigation {
+    display: flex;
+    column-gap: 10px;
+    &__link {
+        font-size: 24px;
+        color: var(--colorMainWhite);
+        transition: all 0.3s;
+        &:hover{
+            transform: translateY(-2px);
+            color: #fff
+        }
+    }
+    &__divider{
+        height: 25px;
+        width: 1px;
+        background-color: var(--colorMainWhite);
+    }
+}
+
+
+@media (max-width: 768px) {
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+        
+        gap: 40px;
+        &__link {
+            font-size: 40px;
+        }
+        &__divider{
+            display: none;
+        }
+    }
+  }

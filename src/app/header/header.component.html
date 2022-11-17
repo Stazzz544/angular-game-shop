@@ -1,0 +1,26 @@
+<header class="header">
+    <div class="header__content-wrapper">
+        <a 
+           routerLinkActive="active" 
+           [routerLinkActiveOptions]="{exact: true}" 
+           routerLink="">
+           <app-logo></app-logo>
+        </a>
+        <app-navigation class="header__navigation"></app-navigation>
+        <app-search class="header__search"></app-search>
+        <app-auth class="header__auth"></app-auth>
+        <div class="header__flex-group">
+            <app-basket class="header__basket"></app-basket>
+            <app-burger class="burger"></app-burger>
+        </div>
+    </div>
+
+
+</header>
+
+<div 
+    [ngClass]="{'active': service.isBurgerOpen}"
+    class="header__mobile-menu ">
+    <app-navigation class="header__navigation mobile"></app-navigation>
+    <app-search class="header__search mobile"></app-search>
+</div>
