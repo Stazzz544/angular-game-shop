@@ -1,0 +1,12 @@
+.footer{
+    height: 60px;
+    background: var(--colorMainGrey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer__text{
+    color: var(--colorMainWhite);    
+}
