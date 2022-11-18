@@ -17,6 +17,7 @@ import { AngularLogoSvgComponent } from 'src/assets/svg/angularLogo/angularLogo.
 import { BurgerComponent } from './header/burger/burger.component';
 import { BurgerService } from './header/burger/burger.service';
 import { FooterComponent } from './footer/footer.component';
+import { AboutPageComponent } from './pages/about-page/about-page.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { FooterComponent } from './footer/footer.component';
     EntrySvgComponent,
     BusketSvgComponent,
     BurgerComponent,
-    FooterComponent
+    FooterComponent,
+    AboutPageComponent
   ],
   imports: [
     BrowserModule,

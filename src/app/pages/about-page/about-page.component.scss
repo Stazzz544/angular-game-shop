@@ -1,0 +1,11 @@
+.about {
+
+    &__title {
+        font-size: var(--fzTitle);
+    }
+
+    &__text {
+        margin-top: 20px;
+        font-size: var(--fzText);
+    }
+}
