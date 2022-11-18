@@ -18,6 +18,9 @@ import { BurgerComponent } from './header/burger/burger.component';
 import { BurgerService } from './header/burger/burger.service';
 import { FooterComponent } from './footer/footer.component';
 import { AboutPageComponent } from './pages/about-page/about-page.component';
+import { CatalogPageComponent } from './pages/catalog-page/catalog-page.component';
+import { BasketPageComponent } from './pages/basket-page/basket-page.component';
+import { ProfilePageComponent } from './pages/profile-page/profile-page.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +39,10 @@ import { AboutPageComponent } from './pages/about-page/about-page.component';
     BusketSvgComponent,
     BurgerComponent,
     FooterComponent,
-    AboutPageComponent
+    AboutPageComponent,
+    CatalogPageComponent,
+    BasketPageComponent,
+    ProfilePageComponent
   ],
   imports: [
     BrowserModule,
