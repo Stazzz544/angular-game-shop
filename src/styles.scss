@@ -94,5 +94,10 @@
   --colorMainRed: rgb(187, 32, 4);
   --colorMainWhite: rgb(238, 238, 238);
   --colorMainGrey: rgb(99, 99, 99);
+  --fzTitle: 45px;
+  --fzText: 20px
 }
  
+body{
+    background: url('./assets/jpg/mainBackgraund.jpg') 0 0 no-repeat fixed;
+}
