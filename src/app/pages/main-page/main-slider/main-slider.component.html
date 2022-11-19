@@ -1,0 +1,17 @@
+<swiper #mainSlider class="slider" [config]="config">
+  <ng-template *ngFor="let slide of mainSliderData | async" swiperSlide>
+    <div class="slider__game-wrapper">
+      <img class="slider__game-img" src={{slide.img}} alt="slider image">
+      <div class="slider__game-link-wrapper">
+        <a routerLink="catalog/{{slide.id}}" class="slider__game-link">{{slide.title}}</a>
+      </div>
+    </div>
+
+  </ng-template>
+</swiper>
+<button class="slider__navigation-btn slider__navigation-btn_next" (click)="slideNext()">
+  <app-sliderArrow-svg></app-sliderArrow-svg>
+</button>
+<button class="slider__navigation-btn slider__navigation-btn_prev" (click)="slidePrev()">
+  <app-sliderArrow-svg></app-sliderArrow-svg>
+</button>

@@ -1,0 +1,136 @@
+{
+  "sliderData": [
+    {
+      "id": 1,
+      "title": "Sekiro: Shadows Die Twice",
+      "img": "https://steammachine.ru/slider/3449024-462x264.jpg"
+    },
+    {
+      "id": 2,
+      "title": "XCOM: Ultimate Collection",
+      "img": "https://steammachine.ru/slider/3114367-462x264.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Mass Effect Legendary Edition",
+      "img": "https://steammachine.ru/slider/3455734-462x264.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Assassin's Creed: Unity",
+      "img": "https://steammachine.ru/slider/1744330-462x264.jpg"
+    }
+  ],
+
+  "games": [
+    {
+      "id": 1,
+      "title": "Sekiro: Shadows Die Twice",
+      "discriptionL": "Игра года - The Game Awards 2019 Лучший боевик 2019 г. - IGN Составляйте и воплощайте собственные планы мести в удостоенном множества наград боевике от студии FromSoftware, создавшей Bloodborne и серию Dark Souls. Отомстите врагам. Верните свою честь. Освойте искусство убивать.",
+      "img": "https://steammachine.ru/slider/3449024-462x264.webp",
+      "images": [
+        "https://steammachine.ru/gallery/3449024_60916617135553.jpg",
+        "https://steammachine.ru/gallery/3449024_18016617135594.jpg",
+        "https://steammachine.ru/gallery/3449024_88316617135603.jpg"
+      ],
+      "price": 420
+    },
+
+    {
+      "id": 2,
+      "title": "XCOM: Ultimate Collection",
+      "discriptionL": "Игра XCOM: Enemy Unknown, удостоенная множества титулов «Игра года», является современным ремейком культовой классической игры XCOM. В XCOM: Enemy Unknown вы встанете во главе секретной военизированной организации XCOM. В роли командующего XCOM вы должны отразить нашествие опасных инопланетных захватчиков. Вам придется следить за ресурсами, развивать технологии, планировать военные операции и отдавать приказы солдатам. Укрепите оборону с дополнением XCOM: Enemy Within, наборами материалов Slingshot Pack и Elite Soldier Pack.",
+      "img": "https://steammachine.ru/slider/3455734-462x264.jpg",
+      "images": [
+        "https://steammachine.ru/gallery/1965696_21615084766379.jpg",
+        "https://steammachine.ru/gallery/1965696_9915084766505.jpg",
+        "https://steammachine.ru/gallery/1965696_8115084766488.jpg"
+      ],
+      "price": 999
+    },
+    {
+      "id": 2,
+      "title": "Mass Effect Legendary Edition",
+      "discriptionL": "Один человек — это все, что стоит между человечеством и величайшей угрозой всему живому. Вспомните легенду: капитан Шепард возвращается в новом издании знаменитой трилогии Mass Effect — Mass Effect™ издание Legendary. Содержит основной одиночный контент и более 40 дополнений из Mass Effect, Mass Effect 2 и Mass Effect 3, а также бонусное оружие, броню и наборы. Весь контент оптимизирован под разрешение 4K Ultra HD.",
+      "img": "https://steammachine.ru/slider/3114367-462x264.jpg",
+      "images": [
+        "https://steammachine.ru/gallery/3455734_2316622037188.jpg",
+        "https://steammachine.ru/gallery/3455734_98016622037243.jpg",
+        "https://steammachine.ru/gallery/3455734_12216622037233.jpg"
+      ],
+      "price": 3200
+    },
+    {
+      "id": 4,
+      "title": "Assassin's Creed: Unity",
+      "discriptionL": "Жизнь истинного мастера убийств всегда покрыта мраком, и в каждой из частей Assassin's Creed мы могли наблюдать данный факт. В этот же раз разработчики готовы порадовать почитателей серии ещё более насыщенным и кровавым экшеном. Решив купить ключ Assassin's Creed Unity, вы переноситесь в конец XVII века, в 1789 год во Францию и сталкиваетесь с достаточно непростой ситуацией. Разгоревшаяся французская революция смогла превратить огромный некогда прекрасный город в настоящее царство хаоса и страха. Улицы в буквальном смысле тонут в потоках крови простолюдинов, а аристократы и тираны при этом живут припеваючи. Но рано или поздно должен прийти человек, который сможет повернуть столь печальное развитие событий в нужное русло и им станет молодой амбициозный парень по имени Арно. Именно он, под вашим руководством должен будет отправиться в самую гущу событий, дабы узнать, что за тайные силы управляют братоубийственной войной во Франции. Так на ваших глазах родится новый мастер-ассасин.",
+      "img": "https://steammachine.ru/slider/1744330-462x264.jpg",
+      "images": [
+        "https://steammachine.ru/gallery/sh_1744330_2.jpg",
+        "https://steammachine.ru/gallery/sh_1744330_5.jpg",
+        "https://steammachine.ru/gallery/sh_1744330_1.jpg"
+      ],
+      "price": 1300
+    },
+    {
+      "id": 5,
+      "title": "Fallout New Vegas",
+      "discriptionL": "Сражаясь в просторах дикой пустоши Мохаве, колоссальной плотины Хувера, или же в неоновой Полосе Вегаса, вы будете постепенно узнавать абсолютно новых людей, познакомитесь с жадными до власти организациями, найдете специальные пушки, кучу мутированных существ, да и много всего другого. Выберите свою сторону в войне с девизом «Победитель забирает все» и провозгласите себя Королем Нового Вегаса в продолжении лучшей игры 2008 года, Fallout 3.",
+      "img": "https://steammachine.ru/slider/3524119-462x264.webp",
+      "images": [
+        "https://steammachine.ru/gallery/3524119_29916675111008.jpg",
+        "https://steammachine.ru/gallery/3524119_3916675110985.jpg",
+        "https://steammachine.ru/gallery/3524119_21816675111061.jpg"
+      ],
+      "price": 4000
+    },
+    {
+      "id": 6,
+      "title": "Cities: Skylines",
+      "discriptionL": "Cities: Skylines предлагает по-новому взглянуть на жанр градостроительного симулятора. Эта игра как нельзя лучше передает возникающие перед градоначальником трудности и позволяет создать настоящий мегаполис, одновременно привнося в игру приятные новшества.",
+      "img": "https://steammachine.ru/slider/1994744-462x264.webp",
+      "images": [
+        "https://steammachine.ru/gallery/sh_1892875_4.jpg",
+        "https://steammachine.ru/gallery/sh_1892875_10.jpg",
+        "https://steammachine.ru/gallery/sh_1892875_9.jpg"
+      ],
+      "price": 2200
+    },
+    {
+      "id": 7,
+      "title": "Call of Duty: Modern Warfare II",
+      "discriptionL": "В игре Call of Duty: Modern Warfare II игроков ожидает беспрецедентный глобальный конфликт с участием легендарных исполнителей из ОТГ-141. В кампании, рассчитанной на одного игрока, вам предстоит путешествовать по всему миру, выполняя самые разные задания - от небольших, но критически важных тактических ударов до сверхсекретных операций.",
+      "img": "https://steammachine.ru/slider/3510075-462x264.webp",
+      "images": [
+        "https://steammachine.ru/gallery/3510075_83516668839955.jpg",
+        "https://steammachine.ru/gallery/3510075_55216668839916.jpg",
+        "https://steammachine.ru/gallery/3510075_74016668840021.jpg"
+      ],
+      "price": 1299
+    },
+    {
+      "id": 8,
+      "title": "Command & Conquer: Red Alert 3 - Uprising",
+      "discriptionL": "Red Alert 3: Uprising features four new mini-campaigns, giving players a deeper dive into the storyline's of the Soviets, the Allies, the Empire of the Rising Sun and a unique campaign centered on the origins of everyone’s favorite psionic Japanese schoolgirl commando, Yuriko Omega. Set in the aftermath of Red Alert 3, the Soviet Union is still reeling from its crushing defeat. The Empire of the Rising Sun is desperately trying to regain both honor and identity, and the seemingly victorious Allies find themselves in the midst of corruption and deceit within their own ranks.",
+      "img": "https://steammachine.ru/slider/1602440-462x264.webp",
+      "images": [
+        "https://steammachine.ru/gallery/1602440_48616147678888.jpg",
+        "https://steammachine.ru/gallery/1602440_71616147678802.jpg",
+        "https://steammachine.ru/gallery/1602440_59816147678722.jpg"
+      ],
+      "price": 499
+    },
+    {
+      "id": 9,
+      "title": "Heroes of Might and Magic III: Complete",
+      "discriptionL": "Погибнув от рук заговорщиков, король Эрафии по прозвищу Грифоново Сердце восстает из мертвых, становится предводителем нежити и совершает безжалостное нашествие на принадлежавшее ему некогда королевство. Противостоять ему осмеливается лишь дочь Катерина, королева Энрота, вернувшаяся на родину во главе отборного войска. А некроманты тем временем поднимают из могил армии мертвецов и отправляются на штурм столицы Эрафии. Королева Катерина принимает помощь оставшихся полководцев отца и принимается отвоевывать потерянную территорию.",
+      "img": "https://steammachine.ru/slider/3284979-462x264.webp",
+      "images": [
+        "https://steammachine.ru/gallery/3284979_18216442308057.jpg",
+        "https://steammachine.ru/gallery/3284979_80316442308092.jpg",
+        "https://steammachine.ru/gallery/3284979_89916442308002.jpg"
+      ],
+      "price": 299
+    }
+  ]
+}

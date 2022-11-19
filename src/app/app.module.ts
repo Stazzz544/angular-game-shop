@@ -21,9 +21,24 @@ import { AboutPageComponent } from './pages/about-page/about-page.component';
 import { CatalogPageComponent } from './pages/catalog-page/catalog-page.component';
 import { BasketPageComponent } from './pages/basket-page/basket-page.component';
 import { ProfilePageComponent } from './pages/profile-page/profile-page.component';
+import { MainPageComponent } from './pages/main-page/main-page.component';
+import { SwiperModule } from 'swiper/angular';
+import { MainSliderService } from './services/main-slider.service';
+import { HttpClientModule } from '@angular/common/http';
+import { MainSliderComponent } from './pages/main-page/main-slider/main-slider.component';
+import { GameComponent } from './pages/game/game.component';
+import { SliderArrowSvgComponent } from 'src/assets/svg/sliderArrow/sliderArrow.component';
 
 @NgModule({
   declarations: [
+    //======SVG======
+    ShopLogoSvgComponent,
+    SearchSvgComponent,
+    AngularLogoSvgComponent,
+    EntrySvgComponent,
+    BusketSvgComponent,
+    SliderArrowSvgComponent,
+    //======SVG-END======
     AppComponent,
     HeaderComponent,
     NavigationComponent,
@@ -31,24 +46,19 @@ import { ProfilePageComponent } from './pages/profile-page/profile-page.componen
     SearchComponent,
     AuthComponent,
     BasketComponent,
-    //======SVG======
-    ShopLogoSvgComponent,
-    SearchSvgComponent,
-    AngularLogoSvgComponent,
-    EntrySvgComponent,
-    BusketSvgComponent,
+
     BurgerComponent,
     FooterComponent,
     AboutPageComponent,
     CatalogPageComponent,
     BasketPageComponent,
-    ProfilePageComponent
+    ProfilePageComponent,
+    MainPageComponent,
+    MainSliderComponent,
+    GameComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-  ],
-  providers: [BurgerService],
-  bootstrap: [AppComponent]
+  imports: [BrowserModule, AppRoutingModule, SwiperModule, HttpClientModule],
+  providers: [BurgerService, MainSliderService],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
