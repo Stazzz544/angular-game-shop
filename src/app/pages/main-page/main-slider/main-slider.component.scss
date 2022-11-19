@@ -1,0 +1,70 @@
+.slider {
+  margin-top: 20px;
+  height: 100%;
+  border-radius: 10px;
+
+  &__game-wrapper {
+    position: relative;
+    height: 100%;
+    &:hover > .slider__game-link-wrapper {
+      opacity: 1;
+    }
+  }
+  &__game-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &__game-link-wrapper {
+    display: flex;
+    transition: all 0.3s;
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 0.6811099439775911) 70%,
+      rgba(0, 0, 0, 0.35057773109243695) 100%
+    );
+    width: 100%;
+    align-items: center;
+  }
+  &__game-link {
+    color: #ffffff;
+    margin-left: 30px;
+    font-size: 20px;
+    transition: all 0.3s;
+    &:hover {
+      color: var(--colorMainRed);
+      transform: scale(1.07);
+    }
+  }
+  &__navigation-btn{
+    position: absolute;
+    z-index: 10000;
+    color: #ffffff;
+    font-size: 35px;
+    top: 130px;
+    height: 30px;
+    width: 30px;
+    fill: var(--colorMainWhite);
+    background: transparent;
+    transition: 0.3s all;
+    &:hover{
+        fill: var(--colorMainRed)
+    }
+    &_prev{
+        left: 0;
+        transform: rotate(180deg);
+    }
+    &_next{
+        right: 0;
+
+    }
+  }
+}

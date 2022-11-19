@@ -1,0 +1,28 @@
+
+
+.title{
+    font-size: var(--fzTitle);
+}
+
+
+.promo {
+    margin-top: 20px;
+    display: flex;
+    column-gap: 20px;
+    &__slider {
+        max-width: 462px;
+        height: 264px;
+    }
+    &__text {
+        margin-top: 10px;
+        font-size: 17px;
+        line-height: 25px;
+    }
+    &__title{
+        font-size: 35px;
+    }
+}
+
+.main-slider{
+    position: relative;
+}
