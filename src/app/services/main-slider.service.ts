@@ -10,6 +10,6 @@ export class MainSliderService {
   constructor(private http: HttpClient) {}
 
   getMainSliderData(): Observable<ISliderData[]> {
-    return this.http.get<ISliderData[]>(`${API_URL}/sliderData`)
+    return this.http.get<ISliderData[]>(`${API_URL}/mainSliderData`)
   }
 }

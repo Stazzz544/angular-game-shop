@@ -1,8 +1,8 @@
 <h1 class="title">Main page</h1>
 
 <div class="promo">
-  <div class="promo__slider">
-    <app-main-slider class="main-slider"></app-main-slider>
+  <div class="promo__slider-wrapper">
+    <app-main-slider class="promo__slider"></app-main-slider>
   </div>
 
   <div>
@@ -15,5 +15,13 @@
       quisquam dolorem, beatae ducimus unde fuga corporis, a asperiores sunt voluptatem iste atque saepe fugit in vitae
       quam ut adipisci, quos vero nihil? Quisquam laborum ab neque voluptatum. Aliquid, tempora distinctio.</p>
   </div>
+</div>
 
+<div class="games">
+    <div class="games__wrapper">
+        <a routerLink="catalog/{{game.id}}" *ngFor="let game of games | async" class="games__game-tile">
+            <img class="games__game-img" src="{{game.img}}" alt="">
+            <div class="games__game-text">{{game.title}}</div>
+        </a>
+    </div>
 </div>

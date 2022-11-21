@@ -1,0 +1,40 @@
+.slider {
+  margin-top: 40px;
+  position: relative;
+  &__swiper {
+  }
+
+  &__img-wrapper {
+    height: 200px;
+  }
+
+  &__img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    cursor: zoom-in;
+  }
+
+  &__navigation-btn {
+    position: absolute;
+    z-index: 10000;
+    color: #ffffff;
+    font-size: 35px;
+    top: 130px;
+    height: 30px;
+    width: 30px;
+    fill: var(--colorMainWhite);
+    background: transparent;
+    transition: 0.3s all;
+    &:hover {
+      fill: var(--colorMainRed);
+    }
+    &_prev {
+      left: 0;
+      transform: rotate(180deg);
+    }
+    &_next {
+      right: 0;
+    }
+  }
+}

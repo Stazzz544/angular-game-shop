@@ -1,0 +1,22 @@
+<div class="slider">
+    
+  <div *ngIf="imgUrls && imgUrls.length > 0">
+    <swiper #gamePreviewSlider class="slider__swiper" [config]="sliderConfig">
+      <ng-template *ngFor="let imgUrl of imgUrls" swiperSlide>
+        <div class="slider__img-wrapper">
+          <lightgallery [settings]="lightgallerySettings">
+            <img class="slider__img" src="{{imgUrl}}" alt="game-img">
+          </lightgallery>
+        </div>
+      </ng-template>
+    </swiper>
+  </div>
+
+  <button class="slider__navigation-btn slider__navigation-btn_next" (click)="slideNext()">
+    <app-sliderArrow-svg></app-sliderArrow-svg>
+  </button>
+  <button class="slider__navigation-btn slider__navigation-btn_prev" (click)="slidePrev()">
+    <app-sliderArrow-svg></app-sliderArrow-svg>
+  </button>
+
+</div>
