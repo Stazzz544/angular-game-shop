@@ -1,5 +1,6 @@
 @import "swiper/scss";
-@import "swiper/css/autoplay";
+@import "swiper/scss/autoplay";
+@import '~lightgallery/scss/lightgallery';
 
 /* You can add global styles to this file, and also import other style files */
 /*------reset styles start-------*/
@@ -103,4 +104,8 @@ h6 {
 
 body {
   background: url("./assets/jpg/mainBackgraund.jpg") 0 0 no-repeat fixed;
+}
+
+.lg-outer, .lg-backdrop {
+    z-index:10001;
 }

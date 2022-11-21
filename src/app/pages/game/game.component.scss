@@ -1,0 +1,81 @@
+.game {
+
+  &__info {}
+
+  &__info-wrapper {
+    margin-top: 30px;
+    display: flex;
+    column-gap: 30px;
+  }
+
+  &__img {
+    flex: 1 1;
+    max-height: 264px;
+  }
+
+  &__title-wrapper {
+    position: relative;
+  }
+
+  &__back-btn {
+    column-gap: 10px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 17px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #000000;
+    transition: all 0.3s;
+
+    &:hover {
+      color: var(--colorMainRed);
+      fill: var(--colorMainRed);
+    }
+  }
+
+  &__back-btn-svg {
+    height: 20px;
+  }
+
+  &__back-btn-text {
+    font-size: 23px;
+  }
+
+  &__title {
+    text-align: center;
+    font-size: var(--fzTitle);
+  }
+
+  &__discription {
+    font-size: var(--fzText);
+  }
+
+  &__add-to-basket-wrapper {
+        margin-left: auto;
+        padding: 5px 15px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        background: transparent;
+        justify-content: flex-end;
+        border: 2px solid var(--colorMainRed);
+        border-radius: 15px;
+        fill: var(--colorMainRed);
+        transition: all 0.3s;
+        &:hover{
+            fill: var(--colorMainWhite);
+            background: var(--colorMainRed);
+            color: var(--colorMainWhite);
+        }
+        
+    }
+    &__add-to-basket-svg{
+        height: 100%;
+        fill: inherit;
+    }
+    &__add-to-basket-text{
+        font-size: 22px;
+    }
+}

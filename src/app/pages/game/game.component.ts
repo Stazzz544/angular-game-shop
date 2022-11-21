@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { BehaviorSubject } from 'rxjs';
+import { IGame } from 'src/app/services/games.interface';
+import { GamesService } from 'src/app/services/games.service';
 
 @Component({
   selector: 'app-game',
@@ -7,9 +11,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GameComponent implements OnInit {
 
-  constructor() { }
+    currentGame = new BehaviorSubject<IGame>({
+        id: 0,
+        title: '',
+        discription: '',
+        img: '',
+        images: [],
+        price: 0,
+    });
 
-  ngOnInit(): void {
+  constructor(private gamesService: GamesService, private route: ActivatedRoute) { }
+
+  ngOnInit(){
+
+    this.gamesService
+        .getGame(Number(this.route.snapshot.params['id']))
+        .subscribe((res) => this.currentGame.next(res));
+    console.log(this.currentGame)
   }
+
 
 }
