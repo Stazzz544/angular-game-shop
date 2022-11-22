@@ -21,7 +21,6 @@
       "img": "https://steammachine.ru/slider/1744330-462x264.jpg"
     }
   ],
-
   "games": [
     {
       "id": 1,
@@ -35,7 +34,6 @@
       ],
       "price": 420
     },
-
     {
       "id": 2,
       "title": "XCOM: Ultimate Collection",
@@ -131,6 +129,13 @@
         "https://steammachine.ru/gallery/3284979_89916442308002.jpg"
       ],
       "price": 299
+    }
+  ],
+  "currentUser": [
+    {
+      "gameId": 3,
+      "price": 3200,
+      "id": 1
     }
   ]
 }
