@@ -1,1 +1,27 @@
-<h1 class="title">Basket</h1>
+<h1 class="basket__title">Basket</h1>
+
+<div class="basket">
+
+  <ng-container *ngIf="(gamesInBusket | async) as games;">
+
+  <div *ngFor="let game of games let i = index" class="basket__items">
+    <div class="basket__item-wrapper">
+      <div class="basket__item-index">{{i+1}}</div>
+      <div class="basket__img-wrapper">
+        <img class="basket__img" src="{{game.img}}" alt="">
+      </div>
+      <div class="basket__item-name">{{game.title}}</div>
+      <div class="basket__item-price">{{game.userPrice}} ₽</div>
+      <button class="basket__item-buy">оплатить</button>
+      <button class="basket__item-remove" (click)="removeGame(game.userOrderId)">удалить</button>
+    </div>
+  </div>
+
+  <div class="basket__empty-text" *ngIf="games.length < 1">
+    <p>В данный момент корзина пуста...</p>
+  </div>
+
+  
+  </ng-container>
+
+</div>

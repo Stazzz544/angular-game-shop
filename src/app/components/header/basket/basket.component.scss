@@ -1,11 +1,26 @@
 .basket {
     background-color: transparent;
     transition: all 0.3s;
+    position: relative;
     &:hover{
         transform: translateY(-2px);
     }
     &__img {
         height: 36px;
         fill: var(--colorMainWhite)
+    }
+    &__count{
+        position: absolute;
+        top: -28px;
+        left: -13px;
+        color: var(--colorMainWhite);
+        border-radius: 50%;
+        background: var(--colorMainRed);
+        border: 2px solid var(--colorMainWhite);
+        height: 30px;
+        width: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }

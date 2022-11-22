@@ -31,6 +31,7 @@ import { SliderArrowSvgComponent } from 'src/assets/svg/sliderArrow/sliderArrow.
 import { GamesService } from './services/games.service';
 import { GameSliderComponent } from './pages/game/game-slider/game-slider.component';
 import { BackArrowSvgComponent } from 'src/assets/svg/backArrow/backArrow.component';
+import { BusketService } from './services/busket.service';
 
 @NgModule({
   declarations: [
@@ -62,7 +63,7 @@ import { BackArrowSvgComponent } from 'src/assets/svg/backArrow/backArrow.compon
     GameSliderComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, SwiperModule, HttpClientModule, LightgalleryModule],
-  providers: [BurgerService, MainSliderService, GamesService],
+  providers: [BurgerService, MainSliderService, GamesService, BusketService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

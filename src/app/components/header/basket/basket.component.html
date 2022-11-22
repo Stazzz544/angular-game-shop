@@ -1,6 +1,9 @@
 <a class="basket"
    routerLinkActive="active" 
    routerLink="/basket"
->
-    <app-busket-svg class="basket__img"></app-busket-svg>
+> 
+  <ng-container *ngIf="(basketCount | async) as basketCount">
+    <div *ngIf="basketCount.length > 0" class="basket__count">{{basketCount.length}}</div>
+  </ng-container>
+  <app-busket-svg class="basket__img"></app-busket-svg>
 </a>

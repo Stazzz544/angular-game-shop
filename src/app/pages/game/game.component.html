@@ -1,32 +1,35 @@
 <!-- <div>{{(currentGame | async)?.title}}</div> -->
 <div class="game">
+  <ng-container *ngIf="(currentGame | async) as game">
+    <div class="game__info">
 
-  <div class="game__info">
-
-    <div class="game__title-wrapper">
-        <h1 class="game__title">{{(currentGame | async)?.title}}</h1>
+      <div class="game__title-wrapper">
+        <h1 class="game__title">{{game.title}}</h1>
 
         <a routerLink="" class="game__back-btn">
-            <app-backArrow-svg class="game__back-btn-svg"></app-backArrow-svg>
-            <div class="game__back-btn-text">назад</div>
+          <app-backArrow-svg class="game__back-btn-svg"></app-backArrow-svg>
+          <div class="game__back-btn-text">назад</div>
         </a>
 
-    </div>
+      </div>
 
-    <div class="game__info-wrapper">
-      <img class="game__img" [src]="(currentGame | async)?.img" alt="">
-      <p class="game__discription">{{(currentGame | async)?.discription}}</p>
-    </div>
+      <div class="game__info-wrapper">
+        <img class="game__img" [src]="game.img" alt="">
+        <div class="game__discription-wrapper">
+          <p class="game__discription">{{game.discription}}</p>
+          <div class="game__price">{{game.price}} ₽</div>
+        </div>
+      </div>
 
-    <button class="game__add-to-basket-wrapper">
+      <button (click)="addToBusket(game.id, game.price)" class="game__add-to-basket-wrapper">
         <app-busket-svg class="game__add-to-basket-svg"></app-busket-svg>
         <div class="game__add-to-basket-text">Добавить в корзину</div>
-    </button>
+      </button>
 
-  </div>
+    </div>
 
-  <div class="game__slider-wrapper">
-    <app-game-slider [imgUrls]="(currentGame | async)?.images"></app-game-slider>
-  </div>
-
+    <div class="game__slider-wrapper">
+      <app-game-slider [imgUrls]="game.images"></app-game-slider>
+    </div>
+  </ng-container>
 </div>
